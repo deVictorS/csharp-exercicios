@@ -24,7 +24,7 @@ namespace exercicios
 
             double y = 0;
 
-            int[] Valores = new int[10];
+            int[] Valores = new int[10]; 
 
             Console.WriteLine("\n---INSERÇÃO DE NÚMEROS---");
 
