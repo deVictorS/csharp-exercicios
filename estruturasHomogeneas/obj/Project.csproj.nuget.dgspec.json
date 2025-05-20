@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {}
+    "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {}
   },
   "projects": {
-    "c:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {
+    "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "c:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
+        "projectPath": "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
         "packagesPath": "C:\\Users\\UFJF\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\obj\\",
+        "outputPath": "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UFJF\\AppData\\Roaming\\NuGet\\NuGet.Config"
