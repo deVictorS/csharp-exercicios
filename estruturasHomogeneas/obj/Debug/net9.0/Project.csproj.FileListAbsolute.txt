@@ -1,0 +1,15 @@
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.AssemblyInfoInputs.cache
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.AssemblyInfo.cs
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.csproj.CoreCompileInputs.cache
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.sourcelink.json
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\bin\Debug\net9.0\Project.exe
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\bin\Debug\net9.0\Project.deps.json
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\bin\Debug\net9.0\Project.runtimeconfig.json
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\bin\Debug\net9.0\Project.dll
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\bin\Debug\net9.0\Project.pdb
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.dll
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\refint\Project.dll
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.pdb
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\Project.genruntimeconfig.cache
+c:\Users\UFJF\Desktop\csharp-exercicios\estruturasHomogeneas\obj\Debug\net9.0\ref\Project.dll
