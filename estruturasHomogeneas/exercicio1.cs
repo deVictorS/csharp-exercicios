@@ -11,11 +11,11 @@ using System.Runtime.InteropServices; //Mostrar o maior elemento do vetor
 
 namespace exercicios
 {
-    class Program
+    public class exercicio1
     {
-        static void Main(string[] args)
+        public static void Executar()
         {
-
+            
             int i;
 
             int q = 0;
