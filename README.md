@@ -12,13 +12,3 @@ Este repositório tem como finalidade organizar e documentar exercícios desenvo
 
 ---
 
-## Estrutura dos exercícios
-
-```bash
-csharp-exercicios/
-├── 01-variaveis/
-├── 02-condicionais/
-├── 03-loops/
-├── 04-funcoes/
-├── 05-poo/
-└── 06-extras/
