@@ -1,6 +1,10 @@
+<div align="center"> 
+
 # Exercícios C#
 
 Repositório com exercícios práticos de **C#**, voltados para o aprendizado e reforço da **sintaxe básica** e **conceitos fundamentais** da linguagem.
+
+</div>
 
 ## Objetivo
 
