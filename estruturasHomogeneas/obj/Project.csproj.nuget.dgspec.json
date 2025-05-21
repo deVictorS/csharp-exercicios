@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {}
+    "C:\\Users\\victo\\iCloudDrive\\Csharp\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {
+    "C:\\Users\\victo\\iCloudDrive\\Csharp\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\iCloudDrive\\Csharp\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
-        "packagesPath": "C:\\Users\\UFJF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UFJF\\Desktop\\csharp-exercicios\\estruturasHomogeneas\\obj\\",
+        "projectPath": "C:\\Users\\victo\\iCloudDrive\\Csharp\\csharp-exercicios\\estruturasHomogeneas\\Project.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\iCloudDrive\\Csharp\\csharp-exercicios\\estruturasHomogeneas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UFJF\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

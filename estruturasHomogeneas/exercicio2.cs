@@ -13,13 +13,14 @@ namespace exercicios
         {
             int i;
             int j;
+            float soma;
 
-            string[] Nomes = new string[5];
-            double[,] Notas = new double[5, 3];
+            string[] Nomes = new string[2];
+            float[,] Notas = new float[2, 3];
 
             Console.WriteLine("\n---BOLETIM---");
 
-            for (i = 0; i < 5; i++)
+            for (i = 0; i < 2; i++)
             {
                 Console.WriteLine($"\nDigite o nome do aluno {i + 1}: ");
                 Nomes[i] = Console.ReadLine();
@@ -28,17 +29,20 @@ namespace exercicios
                 for (j = 0; j < 3; j++)
                 {
                     Console.WriteLine($"\nDigite a nota {j + 1} de {Nomes[i]}");
-                    Notas[i, j] = double.Parse(Console.ReadLine());
+                    Notas[i, j] = float.Parse(Console.ReadLine());
                 }
             }
 
-            for (i = 0; i < 5; i++)
+            for (i = 0; i < 2; i++)
             {
-                Console.WriteLine($"\nAluno {Nomes[i]} obteve notas: ");
+                Console.WriteLine($"\nNotas do aluno {Nomes[i]}: ");
+                Console.WriteLine("Soma das notas: ");
 
                 for (j = 0; j < 3; j++)
                 {
-                    Console.WriteLine($"{Notas[i, j]}");
+                    Console.WriteLine($"Nota {j + 1}: {Notas[i, j]}");
+
+
 
                 }
             }
