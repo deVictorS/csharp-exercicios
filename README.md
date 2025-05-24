@@ -1,18 +1,17 @@
 <div align="center"> 
 
-# Exercícios C#
+# C# Exercises
 
-Repositório com exercícios práticos de **C#**, voltados para o aprendizado e reforço da **sintaxe básica** e **conceitos fundamentais** da linguagem.
+Repository with practical **C#** exercises, focused on learning and reinforcing the **basic syntax** and **fundamental concepts** of the language.
 
 </div>
 
-## Objetivo
+## Purpose
 
-Este repositório tem como finalidade organizar e documentar exercícios desenvolvidos para:
-- Praticar a sintaxe do C#
-- Reforçar lógica de programação
-- Explorar fundamentos de programação orientada a objetos (POO)
-- Construir uma base sólida para projetos maiores com C#
+This repository aims to organize and document exercises developed to:
+- Practice C# syntax  
+- Strengthen programming logic  
+- Explore the fundamentals of object-oriented programming (OOP)  
+- Build a solid foundation for larger C# projects
 
 ---
-
