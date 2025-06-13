@@ -15,7 +15,11 @@ namespace exercicios
                 Console.WriteLine("1 - EXERCÍCIO 1");
                 Console.WriteLine("2 - EXERCÍCIO 2");
                 Console.WriteLine("3 - EXERCÍCIO 3");
-                Console.WriteLine("0 - SAIR");
+                Console.WriteLine("---ESTRUTURAS  HETEROGÊNEAS---");
+                Console.WriteLine("4 - EXERCÍCIO 4");
+                Console.WriteLine("---CLASSES E OBJETOS---");
+                Console.WriteLine("5 - EXERCÍCIO 5");
+                Console.WriteLine("\n0 - SAIR");
 
                 opcao = Console.ReadLine();
 
@@ -35,7 +39,18 @@ namespace exercicios
                     case "3":
                         Console.WriteLine("---EXECUTANDO EXERCÍCIO 3---");
                         exercicio3.Executar();
-                        break;  
+                        break;
+
+                    case "4":
+                        Console.WriteLine("---EXECUTANDO EXERCÍCIO 4---");
+                        exercicio4.Executar();
+                        break;
+
+                    case "5":
+                        Console.WriteLine("---EXECUTANDO EXERCÍCIO 5---");
+                        exercicio5.Executar();
+                        break;   
+   
 
                     case "0":
                         Console.WriteLine("\n---ENCERRANDO O PROGRAMA---");

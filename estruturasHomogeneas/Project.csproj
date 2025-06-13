@@ -7,4 +7,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\estruturasHeterogeneas\exercicio4.cs" />
+    <Compile Include="..\classes\exercicio5.cs" />
+  </ItemGroup>
+
 </Project>
