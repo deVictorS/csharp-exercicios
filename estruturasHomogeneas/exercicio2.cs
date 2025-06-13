@@ -13,8 +13,6 @@ namespace exercicios
         {
             int i;
             int j;
-            float soma;
-
             string[] Nomes = new string[2];
             float[,] Notas = new float[2, 3];
 
@@ -36,15 +34,31 @@ namespace exercicios
             for (i = 0; i < 2; i++)
             {
                 Console.WriteLine($"\nNotas do aluno {Nomes[i]}: ");
-                Console.WriteLine("Soma das notas: ");
+                float soma = 0;
 
                 for (j = 0; j < 3; j++)
                 {
                     Console.WriteLine($"Nota {j + 1}: {Notas[i, j]}");
-
-
+                    soma += Notas[i, j];
 
                 }
+
+                Console.WriteLine($"Soma das notas: {soma}");
+
+            }
+
+            for (j = 0; j < 3; j++)
+            {
+                float somaProva = 0;
+                float mediaProva;
+
+                for (i = 0; i < 2; i++)
+                {
+                    somaProva += Notas[i, j];
+                }
+                mediaProva = somaProva / 2;
+
+                Console.WriteLine($"A média da turma na prova {j + 1} foi: {mediaProva}");
             }
 
             

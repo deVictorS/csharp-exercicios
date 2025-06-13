@@ -10,7 +10,8 @@ namespace exercicios
 
             do
             {
-                Console.WriteLine("---MENU DE EXERCÍCIOS---");
+                Console.WriteLine("\n---MENU DE EXERCÍCIOS---");
+                Console.WriteLine("---ESTRUTURAS  HOMOGENEAS---");
                 Console.WriteLine("1 - EXERCÍCIO 1");
                 Console.WriteLine("2 - EXERCÍCIO 2");
                 Console.WriteLine("3 - EXERCÍCIO 3");
@@ -20,6 +21,7 @@ namespace exercicios
 
                 switch (opcao)
                 {
+
                     case "1":
                         Console.WriteLine("---EXECUTANDO EXERCÍCIO 1---");
                         exercicio1.Executar();
@@ -30,10 +32,10 @@ namespace exercicios
                         exercicio2.Executar();
                         break;
 
-                    // case 3:
-                    //     Console.WriteLine("---EXECUTANDO EXERCÍCIO 3---");
-                    //     exercicio3.Executar();
-                    //     break;  
+                    case "3":
+                        Console.WriteLine("---EXECUTANDO EXERCÍCIO 3---");
+                        exercicio3.Executar();
+                        break;  
 
                     case "0":
                         Console.WriteLine("\n---ENCERRANDO O PROGRAMA---");
@@ -42,7 +44,7 @@ namespace exercicios
                 }
 
             }
-                            while (opcao != "0") ;
+                while (opcao != "0");
                 Console.WriteLine("\n---PROGRAMA FINALIZADO---");
         }
 
