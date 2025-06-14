@@ -40,6 +40,7 @@ namespace exercicios
                         break;
 
                     case "2":
+
                         Console.WriteLine("Digite o nome do funcionário: ");
                         string busca = Console.ReadLine();
                         bool encontrado = false;

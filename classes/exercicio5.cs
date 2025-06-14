@@ -1,7 +1,7 @@
 // Faça um programa que possa ser usado por uma clínica para cadastrar: 30 pacientes, a data da consulta, a hora de sua realização,
 // o nome de um paciente e o nome do médico que o atenderá. Depois de os dados serem informados, o programa deve conter uma opção que,
 // o usuário fornecendo o nome do médico, liste toda a agenda dele.
-// Considere que o atributo Data da consulta” seja também estruturado, formado pelos campos Dia, Mês e Ano.
+// Considere que o atributo Data da consulta seja também estruturado, formado pelos campos Dia, Mês e Ano.
 
 using System;
 

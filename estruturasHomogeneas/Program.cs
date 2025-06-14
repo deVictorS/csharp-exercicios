@@ -19,6 +19,8 @@ namespace exercicios
                 Console.WriteLine("4 - EXERCÍCIO 4");
                 Console.WriteLine("---CLASSES E OBJETOS---");
                 Console.WriteLine("5 - EXERCÍCIO 5");
+                Console.WriteLine("---ATRIBUTOS, CLASSES E MÉTODOS---");
+                Console.WriteLine("5 - EXERCÍCIO 6");
                 Console.WriteLine("\n0 - SAIR");
 
                 opcao = Console.ReadLine();
@@ -49,7 +51,12 @@ namespace exercicios
                     case "5":
                         Console.WriteLine("---EXECUTANDO EXERCÍCIO 5---");
                         exercicio5.Executar();
-                        break;   
+                        break;
+
+                    case "6":
+                        Console.WriteLine("---EXECUTANDO EXERCÍCIO 6---");
+                        exercicio6.Executar();
+                        break;    
    
 
                     case "0":

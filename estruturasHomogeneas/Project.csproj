@@ -10,6 +10,7 @@
   <ItemGroup>
     <Compile Include="..\estruturasHeterogeneas\exercicio4.cs" />
     <Compile Include="..\classes\exercicio5.cs" />
+    <Compile Include="..\atributosPropriedadesMetodos\exercicio6.cs" />
   </ItemGroup>
 
 </Project>

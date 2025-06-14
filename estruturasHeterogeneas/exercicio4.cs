@@ -29,7 +29,7 @@ namespace exercicios
             Produtos[] xProd = new Produtos[2];
 
             string opcao;
-            
+
 
             do
             {
@@ -47,7 +47,7 @@ namespace exercicios
 
                         for (int i = 0; i < 2; i++)
                         {
-                            Console.WriteLine("\nNome do produto: ");
+                            Console.WriteLine($"\nNome do produto {i + 1}: ");
                             xProd[i].nome = Console.ReadLine();
 
                             Console.WriteLine("Preço: ");
@@ -65,7 +65,7 @@ namespace exercicios
                             Console.WriteLine("Data de validade - ano: ");
                             xProd[i].data.ano = Console.ReadLine();
 
-                         
+
                         }
 
                         for (int i = 0; i < 2; i++)
@@ -82,18 +82,8 @@ namespace exercicios
                     case "2":
                         Console.WriteLine("Digite o preço do produto: ");
                         string precoBusca = Console.ReadLine();
-                        bool encontrado = false;
-
-                        for (int i = 0; i < 2; i++)
-                        {
-                            if (xProd[i].preco == precoBusca)
-                            {
-                                Console.WriteLine($"\nProdutos encontrados: {xProd[i].nome} - Valor: R${xProd[i].preco} - Quantidade: {xProd[i].qtde} - Data de validade: {xProd[i].data.dia}/{xProd[i].data.mes}/{xProd[i].data.ano}");
-                                encontrado = true;
-                            }
-                        }
+                        Listar(xProd, precoBusca);
                         break;
-
 
 
                     case "0":
@@ -104,7 +94,21 @@ namespace exercicios
 
             }
             while (opcao != "0");
-                Console.WriteLine("\n---PROGRAMA FINALIZADO---");
+            Console.WriteLine("\n---PROGRAMA FINALIZADO---");
+        }
+
+        static void Listar(Produtos[] produtos, string precoBusca)
+        {
+            bool encontrado = false;
+
+            for (int i = 0; i < 2; i++)
+            {
+                if (produtos[i].preco == precoBusca)
+                {
+                    Console.WriteLine($"\nProduto encontrado{i + 1}: {produtos[i].nome} - Valor: R${produtos[i].preco} - Quantidade: {produtos[i].qtde} - Data de validade: {produtos[i].data.dia}/{produtos[i].data.mes}/{produtos[i].data.ano}");
+                    encontrado = true;
+                }
+            }
         }
     }
 }
