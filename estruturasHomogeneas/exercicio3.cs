@@ -41,19 +41,28 @@ namespace exercicios
 
                     case "2":
 
-                        Console.WriteLine("Digite o nome do funcionário: ");
-                        string busca = Console.ReadLine();
-                        bool encontrado = false;
+                        string busca;
 
-                        for (i = 0; i < 2; i++)
+                        do
                         {
-                            if (Funcionario[i].Equals(busca, StringComparison.OrdinalIgnoreCase))
+
+                            Console.WriteLine("Digite o nome do funcionário ou 0 para sair: ");
+                            busca = Console.ReadLine();
+                            bool encontrado = false;
+
+                            for (i = 0; i < 2; i++)
                             {
-                                Console.WriteLine($"\nFuncionário {Funcionario[i]} encontrado. Telefone: {Telefone[i]}");
-                                encontrado = true;
-                                break;
+                                if (Funcionario[i].Equals(busca, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    Console.WriteLine($"\nFuncionário {Funcionario[i]} encontrado. Telefone: {Telefone[i]}");
+                                    encontrado = true;
+                                    break;
+                                }
                             }
+                            break;
+
                         }
+                        while (busca != "0");
                         break;
 
                     case "0":

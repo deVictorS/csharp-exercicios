@@ -11,6 +11,8 @@
     <Compile Include="..\estruturasHeterogeneas\exercicio4.cs" />
     <Compile Include="..\classes\exercicio5.cs" />
     <Compile Include="..\atributosPropriedadesMetodos\exercicio6.cs" />
+    <Compile Include="..\visibilidadeAcessibilidade\exercicio7.cs" />
+    <Compile Include="..\construtores\exercicio8.cs" />
   </ItemGroup>
 
 </Project>

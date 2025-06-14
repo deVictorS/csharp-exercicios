@@ -21,6 +21,10 @@ namespace exercicios
                 Console.WriteLine("5 - EXERCÍCIO 5");
                 Console.WriteLine("---ATRIBUTOS, CLASSES E MÉTODOS---");
                 Console.WriteLine("5 - EXERCÍCIO 6");
+                Console.WriteLine("---VISIBILIDADE E ACESSIBILIDADE---");
+                Console.WriteLine("7 - EXERCÍCIO 7");
+                Console.WriteLine("---CONSTRUTORES DE CLASSE---");
+                Console.WriteLine("8 - EXERCÍCIO 8");
                 Console.WriteLine("\n0 - SAIR");
 
                 opcao = Console.ReadLine();
@@ -56,7 +60,18 @@ namespace exercicios
                     case "6":
                         Console.WriteLine("---EXECUTANDO EXERCÍCIO 6---");
                         exercicio6.Executar();
-                        break;    
+                        break;
+
+                    // case "7":
+                    //     Console.WriteLine("---EXECUTANDO EXERCÍCIO 7---");
+                    //     exercicio7.Executar();
+                    //     break;    
+
+                    // case "8":
+                    //     Console.WriteLine("---EXECUTANDO EXERCÍCIO 8---");
+                    //     exercicio8.Executar();
+                    //     break;    
+       
    
 
                     case "0":
