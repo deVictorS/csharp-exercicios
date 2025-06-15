@@ -77,8 +77,6 @@ namespace exercicios
                         }
                         break;
 
-
-
                     case "0":
                         Console.WriteLine("\n---ENCERRANDO O PROGRAMA---");
                         break;

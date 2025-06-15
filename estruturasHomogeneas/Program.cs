@@ -67,10 +67,10 @@ namespace exercicios
                     //     exercicio7.Executar();
                     //     break;    
 
-                    // case "8":
-                    //     Console.WriteLine("---EXECUTANDO EXERCÍCIO 8---");
-                    //     exercicio8.Executar();
-                    //     break;    
+                    case "8":
+                        Console.WriteLine("---EXECUTANDO EXERCÍCIO 8---");
+                        exercicio8.Executar();
+                        break;    
        
    
 
